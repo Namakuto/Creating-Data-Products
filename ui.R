@@ -13,7 +13,10 @@ shinyUI(fluidPage(
        selectInput("variable",
                    "Y variable of choice: ",
                    choices = names(cars.d[,c(2,4,5,6,7,8,12)]),
-                   selected = names(cars.d[,2]))
+                   selected = names(cars.d[,2])),
+      selectInput("colour",
+                   "Fill colour of choice: ",
+                   choices = c("BuPu", "Greys", "Oranges", "YlGn"))
        ),
     mainPanel(
        plotOutput("cylPlot")
