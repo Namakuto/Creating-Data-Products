@@ -2,6 +2,7 @@
 # The main code to calculate means on various 'mtcars' parameters.
 
 library(shiny)
+library(datasets); iibrary(ggplot2); data("mtcars")
 
 shinyServer(function(input, output) {
   
