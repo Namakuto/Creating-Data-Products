@@ -23,7 +23,7 @@ shinyServer(function(input, output) {
            aes(factor(selection()$Group.1), selection()$x, fill=c("4","6","8")))
     g+
       geom_col()+
-      scale_fill_brewer(name="cyl",palette = "BuPu") +
+      scale_fill_brewer(name="cyl",palette = input$colour) +
       labs(y=paste(input$variable, units[index],sep =" "), 
            x="Cyl Number",
            title=paste("Average", input$variable, sep= " ")) +
