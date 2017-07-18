@@ -7,7 +7,7 @@ July 18, 2017
 
 ### Basic Instructions
 "Mtcars" is dataset available in Rstudio. 
-To begin using the Shiny app in this folder, you will first need to download Rstudio^[1]^, then use `install.packages` for both `"shiny"` and `"ggplot2"`.  
+To begin using the Shiny app in this folder, you will first need to download Rstudio^1^, then use `install.packages` for both `"shiny"` and `"ggplot2"`.  
 
 This simply Shiny app consists of **2 files** that will be run together: a **ui.R** code file and a **server.R** code file. 
 
@@ -24,4 +24,4 @@ This Shiny calcutor app will plot the means of various mtcar parameters versus t
 
 The `Y variable of choice: ` prompt will allow you to change the response variable that is plotted.
 
-[^1^]: Any R-language program should run the app files fine, but these instructions are specific to Rstudio.
+^1^ : Any R-language program should run the app files fine, but these instructions are specific to Rstudio.
